@@ -55,11 +55,12 @@
             </ul>
         </nav>
         <header>
-            <h1>Net Ninja OAuth Tut's</h1>
+            <h1>Welcome to your profile, <%= user.displayName %></h1>
             <h2>Homepage</h2>
         </header>
         <main>
-            <p>Probably the best OAuth tutorials on the planet :)</p>
+            <img src="<%= user.thumbnail %>" />
+            <p>This is your profle thumbnail</p>
         </main>
     </body>
 </html>
