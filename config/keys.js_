@@ -1,0 +1,15 @@
+// remove the _ in the extension
+// add this file to .gitignore
+
+module.exports = {
+	google: {
+		clientID: 'xxxxx.apps.googleusercontent.com',
+		clientSecret: 'yyyyyyyy'
+	},
+	mongodb: {
+		dbURI: 'mongodb://user:password@host:27017/mydb'
+	},
+	session: {
+		cookieKey: 'put_some_random_stuff_in_here'
+	}
+};
